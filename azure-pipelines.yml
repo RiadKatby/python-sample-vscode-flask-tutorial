@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: VMSS_AGENTS_LINUX
 strategy:
   matrix:
     Python27:
